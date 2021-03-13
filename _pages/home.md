@@ -11,7 +11,7 @@ header:
     - label: "<i class='fas fa-download'></i> ダウンロード"
       url: "https://github.com/brain-hackers/buildbrain/releases"
 excerpt: >
-  SHARP Brain 専用に開発された<br />Linux ディストリビューション<br />
+  SHARP Brain 専用<br />Linux ディストリビューション<br />
 feature_row:
   - image_path: /assets/images/unleash.png
     alt: "真の力を解き放つ"
