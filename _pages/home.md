@@ -4,35 +4,36 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/header.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-laptop'></i> インストール"
+      url: "https://github.com/brain-hackers/README/wiki/%E3%81%A8%E3%82%8A%E3%81%82%E3%81%88%E3%81%9A%E8%A9%A6%E3%81%99"
+    - label: "<i class='fas fa-download'></i> ダウンロード"
+      url: "https://github.com/brain-hackers/buildbrain/releases"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.22.0">Latest release v4.22.0</a></small>
+  SHARP Brain 専用に開発された<br />Linux ディストリビューション<br />
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+  - image_path: /assets/images/unleash.png
+    alt: "真の力を解き放つ"
+    title: "真の力を解き放つ"
+    excerpt: "カーネルもソフトウェアもすべてがカスタマイズ可能。Windows CE では不可能だった真のハックをあなたの手に。"
+    url: "/about/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    btn_label: "詳細を読む"
+  - image_path: /assets/images/get_involved.png
+    alt: "ドキュメント"
+    title: "ドキュメント"
+    excerpt: "使い方やカスタマイズに必要な情報は公式 Wiki にあります。お持ちの Brain で今すぐ動かしてみましょう。"
+    url: "https://github.com/brain-hackers/README/wiki"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    btn_label: "Wiki を読む"
+  - image_path: /assets/images/join_us.png
+    alt: "コミュニティ"
+    title: "コミュニティ"
+    excerpt: "Brain Hackers の Discord では日夜ノウハウの共有や開発が行われています。参加して楽しさを分かち合いましょう！"
+    url: "https://github.com/brain-hackers/README#brain-hackers-%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%99%E3%82%8B"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "参加する / フォローする"
 ---
 
 {% include feature_row %}
