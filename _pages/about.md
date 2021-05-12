@@ -1,8 +1,41 @@
 ---
 permalink: /about/
-title: "About"
+title: "Brainux について"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+Brainux は、電子辞書 SHARP Brain で動作する Debian GNU/Linux ベースの Linux ディストリビューションです。Brain のハードウェアに向けたデバイスドライバの実装はもちろんのこと、限られたコンピューティングリソースの下でも快適に動作するミニマルな構成を実現しています。
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+現在はコミュニティ Brain Hackers の Discord サーバーにて、さかんにコミュニケーションをとりながら開発が行われています。
+
+
+# よくある質問
+
+![サポートされている Brain]({{site.baseurl}}/assets/images/brains.jpg)
+
+
+## サポートされている機種はどれですか？
+
+Linux のブートは PW-Sx1 〜 PW-Sx7 の世代でサポートされています。機種（世代）によって、サポートされている機能と可能な操作は細かく異なります。詳しくは、[Wiki - ロードマップ](https://github.com/brain-hackers/README/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97)をご覧ください。
+
+
+## 非常に古いもしくは新しい機種は今後サポートされますか？
+
+PW-GC610 などが該当する数字が3桁の機種と、PW-H1 などが該当する数字が1桁の機種のサポートについては現在はありませんが、将来的にサポートしたいと考えています。少なくとも不可能ではありません。
+
+
+## どうやってインストールすればいいですか？
+
+[Wiki - とりあえず試す](https://github.com/brain-hackers/README/wiki/%E3%81%A8%E3%82%8A%E3%81%82%E3%81%88%E3%81%9A%E8%A9%A6%E3%81%99)にステップバイステップで方法が記載されています。
+
+
+## コラム: なぜ Brain で Linux を動かすのか
+
+![PW-SH1]({{site.baseurl}}/assets/images/hacked_brain.jpg)
+
+高性能なガジェットが多く発売される昨今において、必ずしも快適に使えるとはいえない電子辞書であえて Linux を動かし、あまつさえディストリビューションとして公開したのはなぜでしょうか。それは、ハードウェアハックの好奇心へ忠実に従いたいからです。
+
+2008年に Windows CE 搭載の電子辞書として Brain が発売された当時、その上で自作ソフトが動かせることはたちまち話題となり、アプリの実装をはじめとするハックの探求がさかんに行われました。早い時期から OS の貧弱さによる制限が認識され、それを打破する試みは数多くありましたが、I/O の拡充や Linux の動作は実現されぬまま年月が経ちました。
+
+Brain ハック界隈の勢いもほぼ失われた2019年初頭、後に Brainux をローンチする puhitaku は、Brain で U-Boot と Linux を動かせるかもしれないことに気付きました。それからハードウェアとソフトウェア両輪での長い解析を経て、2019年8月に U-Boot、2020年3月に Linux kernel を動作させることに成功しました。Linux の動作は世間の Brain に対する新たな注目を呼び起こし、コミュニティ Brain Hackers の創設へとつながりました。
+
+このまま、Brain の特定の機種で Linux が動いたことだけを報告し、そのままハックを終えることもできました。Brain Hackers がそうしなかったのは、かつて学生だった頃に Brain が与えてくれた興奮と好奇心を忘れないため、そして現在学生である Brain ユーザーにハックへの道を開くため、という2つの強い思いがあるからです。
