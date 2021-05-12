@@ -15,7 +15,7 @@ Brainux は、電子辞書 SHARP Brain で動作する Debian GNU/Linux ベー�
 
 ## サポートされている機種はどれですか？
 
-Linux のブートは PW-Sx1 〜 PW-Sx7 の世代でサポートされています。機種（世代）によって、サポートされている機能と可能な操作は細かく異なります。詳しくは、[Wiki - ロードマップ](https://github.com/brain-hackers/README/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%9://github.com/brain-hackers/README/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97)をご覧ください。
+Linux のブートは PW-Sx1 〜 PW-Sx7 の世代でサポートされています。機種（世代）によって、サポートされている機能と可能な操作は細かく異なります。詳しくは、[Wiki - ロードマップ](https://github.com/brain-hackers/README/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97)をご覧ください。
 
 
 ## 非常に古いもしくは新しい機種は今後サポートされますか？
