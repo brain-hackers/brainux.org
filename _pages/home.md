@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/header.jpg
   actions:
     - label: "<i class='fas fa-laptop'></i> インストール"
-      url: "https://github.com/brain-hackers/README/wiki/%E3%81%A8%E3%82%8A%E3%81%82%E3%81%88%E3%81%9A%E8%A9%A6%E3%81%99"
+      url: "https://wiki.brainux.org/for%20beginners/beginner-get-started/"
     - label: "<i class='fas fa-download'></i> ダウンロード"
       url: "https://github.com/brain-hackers/buildbrain/releases"
 excerpt: >
@@ -24,7 +24,7 @@ feature_row:
     alt: "ドキュメント"
     title: "ドキュメント"
     excerpt: "使い方やカスタマイズに必要な情報は公式 Wiki にあります。お持ちの Brain で今すぐ動かしてみましょう。"
-    url: "https://github.com/brain-hackers/README/wiki"
+    url: "https://wiki.brainux.org/"
     btn_class: "btn--primary"
     btn_label: "Wiki を読む"
   - image_path: /assets/images/join_us.png
