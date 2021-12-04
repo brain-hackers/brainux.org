@@ -15,7 +15,7 @@ Brainux は、電子辞書 SHARP Brain で動作する Debian GNU/Linux ベー�
 
 ## サポートされている機種はどれですか？
 
-Linux のブートは PW-Sx1 〜 PW-Sx7 の世代でサポートされています。機種（世代）によって、サポートされている機能と可能な操作は細かく異なります。詳しくは、[Wiki - ロードマップ](https://github.com/brain-hackers/README/wiki/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97)をご覧ください。
+Linux のブートは PW-Sx1 〜 PW-Sx7 の世代でサポートされています。機種（世代）によって、サポートされている機能と可能な操作は細かく異なります。詳しくは、[Wiki - ハードウェア対応状況とロードマップ](https://wiki.brainux.org/linux/u-boot/roadmap/)をご覧ください。
 
 
 ## 非常に古いもしくは新しい機種は今後サポートされますか？
@@ -25,7 +25,7 @@ PW-GC610 などが該当する数字が3桁の機種と、PW-H1 などが該当�
 
 ## どうやってインストールすればいいですか？
 
-[Wiki - とりあえず試す](https://github.com/brain-hackers/README/wiki/%E3%81%A8%E3%82%8A%E3%81%82%E3%81%88%E3%81%9A%E8%A9%A6%E3%81%99)にステップバイステップで方法が記載されています。
+[Wiki - とりあえず試す](https://wiki.brainux.org/for%20beginners/beginner-get-started/)にステップバイステップで方法が記載されています。
 
 
 ## コラム: なぜ Brain で Linux を動かすのか
