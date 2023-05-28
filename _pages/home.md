@@ -7,7 +7,7 @@ header:
   overlay_image: /assets/images/header.jpg
   actions:
     - label: "<i class='fas fa-laptop'></i> インストール"
-      url: "https://wiki.brainux.org/for%20beginners/beginner-get-started/"
+      url: "https://wiki.brainux.org/beginners/get-started/"
     - label: "<i class='fas fa-download'></i> ダウンロード"
       url: "https://github.com/brain-hackers/buildbrain/releases"
 excerpt: >
